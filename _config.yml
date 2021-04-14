@@ -5,15 +5,15 @@
 # Site
 title: l3gacy's b3ta
 subtitle: ''
-description: ''
-keywords:
+description: "Hello! I'm Raleigh (he/they), I do computer stuff!"
+keywords: ['lgbt', 'tech', 'crypto', 'python', 'ethereum', 'cryptocurrency', 'linux', 'gay', 'he/they']
 author: l3gacyb3ta
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://l3gacyb3ta.github.io
+url: https://l3gacy.tk
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -96,6 +96,13 @@ pagination_dir: page
 include:
 exclude:
 ignore:
+
+sitemap:
+  path: sitemap.xml
+  template: ./sitemap_template.xml
+  rel: false
+  tags: true
+  categories: true
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
