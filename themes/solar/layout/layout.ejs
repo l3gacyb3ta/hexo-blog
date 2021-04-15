@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html<%= config.language ? " lang=" + config.language.substring(0, 2) : ""%>>
+<%- partial('_partial/head') %>
+<body>
+    
+    <div class="background">
+      <% if (is_post()) { %>
+        <%- partial('_partial/post/actions_desktop') %>
+      <% } %>
+      <div class="content index width mx-auto px2 my4">
+          <% if (!is_post()) { %>
+            <%- partial('_partial/header') %>
+          <% } %>
+          <%- body %>
+      </div>
+      <% if (is_post()) { %>
+       <%- partial('_partial/post/actions_mobile') %>
+      <% } %>
+      <%- partial('_partial/footer') %>
+      <%- partial('_partial/scripts') %>
+    </div>
+
+    <div id="hcard-Raleigh-Wise" class="h-card" rel="me" style="display: none">
+      <span class="fn n">
+         <span class="given-name">Raleigh Wise</span>
+       <span class="additional-name"></span>
+       <span class="family-name"></span>
+     </span>
+      <a class="email" href="mailto:l3gacy.b3ta@disroot.org">l3gacy.b3ta@disroot.org</a>
+      <div class="adr">
+       <span class="region">GA</span>
+        <a class="u-url u-uid" href="http://l3gacy.tk/">Link to l3gacy.tk</a>
+       <span class="country-name">USA</span>
+       <p class="p-note">Hello! I’m Raleigh (he/they), I do computer stuff!
+        <img class="u-photo" src="images/avatar.png" />
+       </p>
+      </div>
+     <div><span class="category">he/they</span></div><p style="font-size:smaller;">This <a href="http://microformats.org/wiki/hcard">hCard</a> created with the <a href="http://microformats.org/code/hcard/creator">hCard creator</a>.</p>
+     </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+nav:
+  # Home: /home/
+  blog: /archives/
+  about me: /about-me/
+  github: http://github.com/l3gacyb3ta
+  contact: https://app.singlelink.co/u/l3gacy
+
+projects_url: http://github.com/l3gacyb3ta
+
+
+
+customize:
+    description: "Hello! I'm Raleigh (he/they), I do computer stuff!"
+    gravatar:
+        email:
+    logo:
+        enabled: true
+        width: 50
+        height: 50
+        url: /images/avatar.png
+        gravatar: false
+    favicon:
+      # eg. generate with http://realfavicongenerator.net/
+      desktop:
+        url: /images/favicon.ico
+        gravatar: false
+      android:
+        url: /images/android-chrome-192x192.png
+        gravator: false
+      apple:
+        url: /images/apple-touch-icon.png
+        gravator: false
+    social_links:
+        github: https://github.com/l3gacyb3ta
+        twitter: https://twitter.com/l3gacyb3ta
+    post_count: 5
+    highlight: lightcode
+
+# keept it like this to add the root path (probably a bug)
+root: ..
+
+# RSS
+rss: true
+
+# Plugins
+plugins:
+    disqus_shortname: # Disqus Comments Shortname
+    google_analytics: # enter the tracking ID for your Google Analytics
+
+# Miscellaneous
+miscellaneous:
+    open_graph: # see http://ogp.me
+        fb_app_id:
+        fb_admins:
+        twitter_id:
+        google_plus:
