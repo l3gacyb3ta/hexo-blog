@@ -1,7 +1,7 @@
 ---
 title: Got this working on github pages!
 date: 2021-04-13 15:28:00
-tags:
+tags: blog
 ---
 
 Well, this was a pain in the butt.  

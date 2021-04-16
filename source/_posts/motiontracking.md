@@ -1,7 +1,7 @@
 ---
 title: motion tracking
 date: 2020-06-24 21:46:52
-tags:
+tags: blender
 ---
 1. I tracked approx 20 points in the image.  
 2. I extrapolated the movement of the camera.  

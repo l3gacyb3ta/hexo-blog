@@ -1,7 +1,7 @@
 ---
 title: ethereum & marshy, a new project!
 date: 2021-03-13 14:48:01
-tags:
+tags: crypto
 ---
 Ethereum - a cool thing!
 ========================

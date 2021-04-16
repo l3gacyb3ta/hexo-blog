@@ -1,7 +1,7 @@
 ---
 title: beach
 date: 2020-07-20 21:40:04
-tags:
+tags: blender
 ---
 ### First render:
 

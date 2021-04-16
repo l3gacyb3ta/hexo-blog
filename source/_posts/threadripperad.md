@@ -1,7 +1,7 @@
 ---
 title: threadripper ad
 date: 2020-04-21 21:43:10
-tags:
+tags: blender
 ---
 1. First I modeled the Treadripper CPU from AMD.  
 2. Then, I used rigidbody physics to simulate them bouncing away.  

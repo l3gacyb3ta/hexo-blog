@@ -1,7 +1,7 @@
 ---
 title: mac OS X .... in a VM‽
 date: 2020-12-22 22:45:47
-tags:
+tags: macos
 ---
 ![Mac](https://i.ibb.co/5LW5Bkd/Mac.png)
 

@@ -1,7 +1,7 @@
 ---
 title: better search for windows
 date: 2021-01-20 22:49:27
-tags:
+tags: windows
 ---
 The Windows 10 search is _slow_ and resource intensive.  So I decided to build a new one!  
 The new search engine uses a flask-sqlite backend, using a jinja html front end.  
