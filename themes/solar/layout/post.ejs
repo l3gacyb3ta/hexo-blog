@@ -1,8 +1,9 @@
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <header>
     <%- partial('_partial/post/title', { post: page, index: false, class_name: 'posttitle' }) %>
     <div class="meta">
-      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <img class="u-photo" src="https://l3gacy.tk/images/avatar.png" />
+      <span class="author p-author h-card" itemprop="author" itemscope itemtype="http://schema.org/Person">
         <span itemprop="name"><% if (page.author) { %><%- page.author %><% } else { %><%- config.title %><% } %></span>
       </span>
       <%- partial('_partial/post/date', { post: page, class_name: 'postdate' }) %>
@@ -10,7 +11,7 @@
     </div>
   </header>
   <%- partial('_partial/post/gallery') %>
-  <div class="content" itemprop="articleBody">
+  <div class="content e-content" itemprop="articleBody">
     <%- page.content %>
   </div>
 </article>

@@ -18,9 +18,9 @@
   <span class="h1"><a href="<%- url_for("archives") %>">Writing</a></span>
   <ul class="post-list">
     <% site.posts.sort('date', 'desc').limit(theme.customize.post_count || 5).each(function(post, i){ %>
-      <li class="post-item">
+      <li class="post-item h-entry">
         <%- partial('_partial/post/date', { post: post, class_name: 'meta' }) %>
-        <span><%- partial('_partial/post/title', { post: post, index: true, class_name: '' }) %></span>
+        <span class="e-content p-name"><%- partial('_partial/post/title', { post: post, index: true, class_name: '' }) %></span>
       </li>
     <% }); %>
   </ul>
